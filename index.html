@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narrative report</title>
+    <style type="text/css" media="all">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Times New Roman;
+            width: 100vw;
+            height: 100vh;
+            max-width: 100vw;
+            max-height: 100vh;
+            overflow: hidden;
+        }
+        .header{
+            width: 100%;
+            height: 20%;
+            background-color: black;
+            display: flex;
+        }
+        .main{
+            width: 100%;
+            height: 60%;
+            background-image: url('5.jpeg');
+            display: flex;
+            border-top: 5px solid black;
+            box-shadow: 0 10px 10px black;
+            z-index: 1;
+        }
+        .footer{
+            width: 100%;
+            height: 20%;
+            background-color: black;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            width: 60%;
+            height: 100%;
+            background-color: rgb(20,20,20);
+            border-top-right-radius: 50%;
+            border-bottom-right-radius: 50%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .photo{
+            width: 40%;
+            height: 100%;
+            background-image: url('5.jpeg');
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        .first{
+            position: absolute;
+            width: 100%;
+            height: 50%;
+            left: -40px;
+            overflow: hidden;
+            top: 0;
+            border-top-right-radius: 50%;
+            border-bottom-right-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #second{
+            width: 90%;
+            height: 65%;
+            border-radius: 50%;
+            box-shadow: 5px 0 50px black;
+            
+        }
+        .first2{
+            position: absolute;
+            bottom: 0;
+            overflow: hidden;
+            right: 0;
+            width: 100%;
+            height: 50%;
+            
+            background-color: rgb(20,20,20);
+            border-top-left-radius: 70%;
+            border-bottom-left-radius: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #third{
+            width: 100%;
+            height: 75%;
+            border-radius: 50%;
+            box-shadow: 10px 0 10px white;
+        }
+        .prodiv{
+            width: 50%;
+            height: 100%;
+            position: relative;
+            background-image: url('4.jpeg');
+            background-size: contain;
+            display: flex;
+            box-shadow: 10px 0 20px black;
+            justify-content: center;
+            align-items: center;
+            border-top-right-radius: 50%;
+            
+        }
+        #profile{
+            width: 400%;
+            height: 500%;
+            top: -200%;
+            position: absolute;
+            filter: drop-shadow(0 0 15px white);
+        }
+        .imghead{
+            width: 60%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            background-color: white;
+            box-shadow: 10px 0 20px black;
+            border-top-right-radius: 40%;
+            border-bottom-right-radius: 40%;
+        }
+        .school{
+            width: 40%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        #fourth{
+            width: 50%;
+            height: 75%;
+            border-radius: 50%;
+            
+            box-shadow: -20px 0 70px black;
+        }
+        h2{
+            font-size: 200%;
+            color: white;
+            font-weight: bold;
+        }
+        .name{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 100%;
+            background-color: black;
+            border-top-left-radius: 30%;
+            border-bottom-left-radius: 30%;
+        }
+        h4{
+            margin-top: -17px;
+            color: white;
+        }
+        h1{
+            font-size: 50px;
+            z-index: 1;
+            color: white;
+            text-shadow: 2px 2px 3px white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="imghead">
+            <img src="4.jpeg" id="fourth"/>
+        </div>
+        <div class="school">
+            <h2>Colegio ng Lungsod ng Batangas </h2>
+        </div>
+    </div>
+    <div class="main">
+        <div class="content">
+            <h1><i>Narrative <br />Report</i></h1>
+        </div>
+        <div class="photo">
+            <div class="first">
+                <img src="2.jpeg" id="second"/>
+            </div>
+            <div class="first2">
+                <img src="3.jpeg" id="third"/>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="prodiv">
+            <img src="1.png" id="profile"/>
+        </div>
+        <div class="name">
+            <h2><i>Marjorie Asi Aclan</i></h2>
+            <br />
+            <h4>BEED 2-1</h4>
+        </div>
+    </div>
+   
+</body>
+</html>
